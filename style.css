@@ -1,0 +1,47 @@
+/* Header styling */
+.navbar {
+    background-color: gray;
+    padding: 0.5rem 1rem;
+}
+.navbar .navbar-brand {
+    color: gray;
+}
+
+.navbar .nav-link {
+    color: gray;
+}
+
+/* Main image styling */
+.main-image {
+    height: 400px;
+    background-color: gray; /* Placeholder for the mountain image */
+}
+
+/* Content box styling */
+.box { 
+    height: 200px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer styling */
+.footer {
+    background-color: gray;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+}
